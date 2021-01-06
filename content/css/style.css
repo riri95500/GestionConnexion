@@ -1,0 +1,82 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(../img/fond.jfif) no-repeat 50% 50% fixed;
+    background-size: cover;
+}
+
+body h1
+{
+    width:480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body h1:hover{
+    transform: scale(1.1);
+    opacity: 0.9;
+    transition: 0.3s ease-in-out;
+    cursor: default;
+}
+
+
+.contenu
+{
+    margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+
+fieldset
+{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1A82DD;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid  #1A82DD;
+    border-radius: 20px;
+    box-shadow: 5px 10px 13px 2px rgba(0,0,0,0.81);
+}
+
+.legend
+{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    font-weight:bold;
+}
+
+fieldset input
+{
+    width:100%;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid  blueviolet;
+    border-radius: 8px;
+    box-shadow: 1px 8px 17px 5px rgba(0,0,0,0.81)
+    ;
+}
+
+fieldset input:focus{
+    background-color: #bcbcbd;
+}
+
+.button{
+    background-color: #DD5B1A;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 0.8em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button:hover{
+    background-color: rgb(189, 91, 46);
+}
