@@ -44,7 +44,7 @@ session_start();
     <fieldset>
         <div class="legend">Login</div>
 
-        <input type="text" name="lemail" id="lemail" placeholder="email" required><br/>
+        <input type="email" name="lemail" id="lemail" placeholder="email" required><br/>
         <input type="password" name="lpassword" id="lpassword" placeholder="password" required><br/>
         <input class="button" type="submit" name="lformsend" id="lformsend" value="Login"></p>
     </fieldset>
@@ -61,7 +61,7 @@ session_start();
         <div class="legend">Sign in</div>
 
         <input type="text" name="pseudo" id="pseudo" placeholder="pseudo" required><br/>
-        <input type="text" name="email" id="email" placeholder="email" required><br/>
+        <input type="email" name="email" id="email" placeholder="email" required><br/>
         <input type="password" name="password1" id="password1" placeholder="password" required><br/>
         <input type="password" name="password2" id="password2" placeholder="confirm password" required><br/>
         <input class="button" type="submit" name="formsend" id="formsend" value="Signin"></p>
