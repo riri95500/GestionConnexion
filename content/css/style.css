@@ -4,7 +4,7 @@ body
     padding: 0;
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: url(../img/fond.jfif) no-repeat 50% 50% fixed;
+    background: url(../img/fond.jpg) no-repeat 50% 50% fixed;
     background-size: cover;
 }
 
@@ -34,10 +34,10 @@ fieldset
     width: 400px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #1A82DD;
+    background-color: #115591;
     padding: 20px;
     margin-bottom: 25px;
-    border: 1px solid  #1A82DD;
+    border: 2px inset pink ;
     border-radius: 20px;
     box-shadow: 5px 10px 13px 2px rgba(0,0,0,0.81);
 }
@@ -59,7 +59,7 @@ fieldset input
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid  blueviolet;
+    border: 1px solid #115591;
     border-radius: 8px;
     box-shadow: 1px 8px 17px 5px rgba(0,0,0,0.81)
     ;
@@ -70,7 +70,7 @@ fieldset input:focus{
 }
 
 .button{
-    background-color: #DD5B1A;
+    background-color: crimson;
     color: whitesmoke;
     font-weight: 700;
     font-size: 0.8em;
@@ -78,5 +78,5 @@ fieldset input:focus{
 }
 
 .button:hover{
-    background-color: rgb(189, 91, 46);
+    background-color: rgb(143, 13, 39);
 }
